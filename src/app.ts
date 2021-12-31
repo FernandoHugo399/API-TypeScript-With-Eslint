@@ -1,5 +1,4 @@
 import express from 'express'
-import Controller from './controls/IndexController'
 
 class App {
     public express: express.Application
@@ -15,7 +14,9 @@ class App {
     }
 
     private routes (): void {
-      this.express.use('/', Controller.index)
+      this.express.use('/', (req, res) => {
+        res.send('Hello World!')
+      })
     }
 }
 
