@@ -1,7 +1,7 @@
 # API TypeScript
 
 ## :mag: About: 
-Structure of a typescript api
+Structure of a typescript api, Already configured with eslint
 <br>
 
 
