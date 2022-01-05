@@ -17,8 +17,7 @@ git clone https://github.com/FernandoHugo399/API-TypeScript
 yarn
 yarn dev
 
-# If you want to use npm, you need to download sucrase and nodemon globally
-# after that, use npm run dev to start the server
+# If you want to use npm, you need to download sucrase and nodemon globally, after that, use npm run dev to start the server
 npm install -g nodemon sucrase
 npm run dev
 ```
